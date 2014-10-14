@@ -1,0 +1,5 @@
+module RDF
+  module LDP
+    VERSION = "0.0.1"
+  end
+end
