@@ -4,6 +4,8 @@
 
 Contains vocabularies to be used by RDF ruby gem https://github.com/ruby-rdf/rdf/ to simplify coding when using LDP data.
 
+Also contains helper method to strip LDP triples from an RDF::Graph object.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -23,7 +25,7 @@ Or install it yourself as:
 ## Usage
 
     include rdf
-    include rdf-ldp
+    include rdf/ldp
     
     RDF::LDP.member    #=> RDF::URI("http://www.w3.org/ns/ldp#member")
 
