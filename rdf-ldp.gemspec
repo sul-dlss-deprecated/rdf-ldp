@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = RDF::LDP::VERSION
   spec.authors       = ["Naomi Dushay"]
   spec.email         = ["ndushay@stanford.edu"]
-  spec.summary       = %q{Linked Data Platform vocabulary for RDF.rb}
+  spec.summary       = %q{Linked Data Platform vocabulary for RDF.rb and helper methods}
   spec.homepage      = ""
   spec.license       = "Apache 2"
 
