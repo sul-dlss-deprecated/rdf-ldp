@@ -1,6 +1,6 @@
 # rdf-ldp
 
-[![Gem Version](https://badge.fury.io/rb/rdf-ldp.svg)](http://badge.fury.io/rb/rdf-ldp)
+[![Build Status](https://travis-ci.org/sul-dlss/rdf-ldp.svg)](https://travis-ci.org/sul-dlss/rdf-ldp) [![Dependency Status](https://gemnasium.com/sul-dlss/rdf-ldp.svg)](https://gemnasium.com/sul-dlss/rdf-ldp) [![Gem Version](https://badge.fury.io/rb/rdf-ldp.svg)](http://badge.fury.io/rb/rdf-ldp)
 
 Contains vocabularies to be used by RDF ruby gem https://github.com/ruby-rdf/rdf/ to simplify coding when using LDP data.
 
