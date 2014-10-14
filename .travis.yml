@@ -1,11 +1,11 @@
 language: ruby
-script: rake ci 
+script: rake spec
 rvm:
   - 2.1.1
 #  - ruby-head
-env:
-  global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+#env:
+#  global:
+#    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 notifications:
   email:
     - ndushay@stanford.edu
