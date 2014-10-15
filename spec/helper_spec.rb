@@ -16,7 +16,7 @@ describe RDF::LDP do
       expect(result.size).to eql 2
       
       stripped_graph = RDF::LDP.remove_ldp_triples graph
-      expect(graph.count).to eql 39
+      expect(stripped_graph.count).to eql 29
       result = stripped_graph.query [nil, RDF.type, RDF::URI.new("http://www.w3.org/ns/ldp#Container")]
       expect(result.size).to eql 0
       result = stripped_graph.query [nil, RDF::URI.new("http://www.w3.org/ns/ldp#contains"), nil]
