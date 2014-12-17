@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Naomi Dushay"]
   spec.email         = ["ndushay@stanford.edu"]
   spec.summary       = %q{Linked Data Platform vocabulary for RDF.rb and helper methods}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/sul-dlss/rdf-ldp"
   spec.license       = "Apache 2"
 
   spec.files         = `git ls-files -z`.split("\x0")
