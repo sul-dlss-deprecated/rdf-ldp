@@ -1,6 +1,6 @@
 # DEPRECATED - use rdf-vocab
 
-This gem is deprecated;  rdf-vocab (included in the linkeddata gem) now contains RDF::Vocab::LDP.  You can find the  helper method to strip LDP triples from an RDF::Graph object in the triannon gem in lib/oa_graph_helper.rb.
+This gem is deprecated;  rdf-vocab gem (https://github.com/ruby-rdf/rdf-vocab, included in the linkeddata gem) now contains RDF::Vocab::LDP.  You can find the  helper method to strip LDP triples from an RDF::Graph object in the triannon gem in lib/oa_graph_helper.rb.
 
 # rdf-ldp
 
@@ -34,4 +34,4 @@ Or install it yourself as:
 
 # DEPRECATED - use rdf-vocab
 
-This gem is deprecated;  rdf-vocab (included in the linkeddata gem) now contains RDF::Vocab::LDP.  You can find the  helper method to strip LDP triples from an RDF::Graph object in the triannon gem in lib/oa_graph_helper.rb.
+This gem is deprecated;  rdf-vocab gem (https://github.com/ruby-rdf/rdf-vocab, included in the linkeddata gem) now contains RDF::Vocab::LDP.  You can find the  helper method to strip LDP triples from an RDF::Graph object in the triannon gem in lib/oa_graph_helper.rb.
