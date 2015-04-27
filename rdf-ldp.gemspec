@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = VERSION
   spec.authors       = ["Naomi Dushay"]
   spec.email         = ["ndushay@stanford.edu"]
-  spec.summary       = %q{Linked Data Platform vocabulary for RDF.rb and helper methods}
+  spec.summary       = %q{This gem deprecated in favor of rdf-vocab; helper method is in triannon gem}
   spec.homepage      = "https://github.com/sul-dlss/rdf-ldp"
   spec.license       = "Apache 2"
 
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'rdf'
+  spec.add_dependency 'deprecation'
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"

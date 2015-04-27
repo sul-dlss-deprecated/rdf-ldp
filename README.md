@@ -1,3 +1,7 @@
+# DEPRECATED - use rdf-vocab
+
+This gem is deprecated;  rdf-vocab (included in the linkeddata gem) now contains RDF::Vocab::LDP.  You can find the  helper method to strip LDP triples from an RDF::Graph object in the triannon gem in lib/oa_graph_helper.rb.
+
 # rdf-ldp
 
 [![Build Status](https://travis-ci.org/sul-dlss/rdf-ldp.svg)](https://travis-ci.org/sul-dlss/rdf-ldp) [![Dependency Status](https://gemnasium.com/sul-dlss/rdf-ldp.svg)](https://gemnasium.com/sul-dlss/rdf-ldp) [![Gem Version](https://badge.fury.io/rb/rdf-ldp.svg)](http://badge.fury.io/rb/rdf-ldp)
@@ -11,7 +15,7 @@ Also contains helper method to strip LDP triples from an RDF::Graph object.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rdf-ldp'
+gem 'rdf-vocab'  # (was rdf-ldp)
 ```
 
 And then execute:
@@ -20,19 +24,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rdf-ldp
+    $ gem install rdf-vocab  # (was rdf-ldp)
 
 ## Usage
 
-    include rdf
-    include rdf/ldp
-    
-    RDF::LDP.member    #=> RDF::URI("http://www.w3.org/ns/ldp#member")
+    require 'rdf/vocab'
 
-## Contributing
+    RDF::Vocab::LDP.member    #=> RDF::URI("http://www.w3.org/ns/ldp#member")
 
-1. Fork it ( https://github.com/[my-github-username]/rdf-ldp/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+# DEPRECATED - use rdf-vocab
+
+This gem is deprecated;  rdf-vocab (included in the linkeddata gem) now contains RDF::Vocab::LDP.  You can find the  helper method to strip LDP triples from an RDF::Graph object in the triannon gem in lib/oa_graph_helper.rb.
