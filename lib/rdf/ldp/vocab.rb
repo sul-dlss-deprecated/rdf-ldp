@@ -2,6 +2,8 @@
 # This file generated automatically using vocab-fetch from http://www.w3.org/ns/ldp#
 require 'rdf'
 module RDF
+  # @deprecated:  this class is deprecated in favor of RDF::Vocab::LDP
+  #   from rdf-vocab gem
   class LDP < RDF::StrictVocabulary("http://www.w3.org/ns/ldp#")
 
     # Class definitions
