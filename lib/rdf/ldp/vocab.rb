@@ -2,9 +2,16 @@
 # This file generated automatically using vocab-fetch from http://www.w3.org/ns/ldp#
 require 'rdf'
 module RDF
+  # deprecate LDP
+  def self.const_missing(const_name)
+    super unless const_name == :LDP
+    warn "DEPRECATION WARNING: the class RDF::LDP is deprecated. Use RDF::Vocab::LDP from https://github.com/ruby-rdf/rdf-vocab instead."
+    LDPDeprecated
+  end
+
   # @deprecated:  this class is deprecated in favor of RDF::Vocab::LDP
   #   from rdf-vocab gem
-  class LDP < RDF::StrictVocabulary("http://www.w3.org/ns/ldp#")
+  class LDPDeprecated < RDF::StrictVocabulary("http://www.w3.org/ns/ldp#")
 
     # Class definitions
     term :BasicContainer,
