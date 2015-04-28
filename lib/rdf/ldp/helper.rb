@@ -2,7 +2,7 @@ require 'deprecation'
 
 # mixin methods
 module RDF
-  class LDP < RDF::StrictVocabulary("http://www.w3.org/ns/ldp")
+  class LDPDeprecated < RDF::StrictVocabulary("http://www.w3.org/ns/ldp")
     extend Deprecation
 
     # @deprecated
